@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.egnaf</groupId>
-    <artifactId>spring-boot-jsp-example</artifactId>
+    <artifactId>spring-boot-example</artifactId>
     <version>1.0</version>
 
     <parent>
