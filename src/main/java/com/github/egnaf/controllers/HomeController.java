@@ -1,4 +1,4 @@
-package com.github.egnaf;
+package com.github.egnaf.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
