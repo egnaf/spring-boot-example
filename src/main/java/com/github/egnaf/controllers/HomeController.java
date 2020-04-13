@@ -30,10 +30,8 @@ public class HomeController {
     }
 
     @GetMapping("/books")
-    public String addBook(Model model, @RequestParam(required = false) int id,
-                          @RequestParam(required = false) String name,
-                          @RequestParam(required = false) String author) {
-        books.add(new Book(id, name, author));
+    public String addBook(Model model, @RequestParam(required = false) String name) {
+        if (name != null) books.add(new Book(name));
         model.addAttribute("books", books);
         return "books";
     }
